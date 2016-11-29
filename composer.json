@@ -1,0 +1,36 @@
+{
+    "name": "als/collections",
+    "type": "library",
+    "description": "Collections Component.",
+    "keywords": ["als", "collections"],
+    "homepage": "https://github.com/parser3/als.collections",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Petrushin",
+            "email": "misha@design.ru",
+            "homepage": "http://misha.design.ru",
+            "role": "Developer"
+        },
+        {
+            "name": "Leonid Knyazev",
+            "email": "leonid@knyazev.me",
+            "homepage": "https://knyazev.me",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/parser3/als.collections/issues"
+    },
+    "require-dev": {
+        "parser/autoload": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Als\\Collections\\": "src"
+        }
+    },
+    "repositories": [
+        { "type": "composer", "url": "https://pkg.parser.ru" }
+    ]
+}
